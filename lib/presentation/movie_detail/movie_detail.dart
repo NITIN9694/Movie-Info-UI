@@ -1,12 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:gearpro/infrastructure/navigation/routes.dart';
-import 'package:gearpro/presentation/activity_detail/movie_detail_controller.dart';
 
 import 'package:gearpro/res.dart';
 import '../../infrastructure/core/base/base_view.dart';
 import '../../infrastructure/theme/colors.theme.dart';
 import '../../infrastructure/theme/text.theme.dart';
 import 'package:get/get.dart';
+
+import 'movie_detail_controller.dart';
 
 class MovieDetailPage extends BaseView<MovieDetailController> {
   MovieDetailPage({super.key});

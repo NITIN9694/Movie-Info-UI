@@ -22,9 +22,9 @@ class BaseController extends GetxController {
   var isLoadingMovieInfo = false.obs;
   var date = "".obs;
 
-  final String apikey = 'db95773a7fb212ba790d71f6adac0e7e';
+  final String apikey = 'apikey';
   final String readaccesstoken =
-      'eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJmZjEwYjEwOTQyNzUwZDRjNDJkMWRhZDAwNzc2MGJmNiIsInN1YiI6IjYxMTIxNDdlZDA1YTAzMDA1ZjZkMTBiNCIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.R_9tRdkftpo6LdGlyGTB0ujuOUagQqKnFa2uiNE7uy8';
+      'token';
 
   var trendingmovies = [].obs;
   var topratedmovies = [].obs;

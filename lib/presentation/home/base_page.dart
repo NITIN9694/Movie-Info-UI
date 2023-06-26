@@ -1,10 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:gearpro/infrastructure/theme/colors.theme.dart';
-import 'package:gearpro/infrastructure/theme/text.theme.dart';
-import 'package:gearpro/presentation/activity_detail/movie_detail.dart';
+
 import 'package:gearpro/res.dart';
 import '../../infrastructure/core/base/base_view.dart';
-import '../../infrastructure/utills/slivergrid_delegat.dart';
+
 import 'package:get/get.dart';
 import 'package:liquid_swipe/liquid_swipe.dart';
 import 'package:flutter/material.dart';
@@ -18,6 +16,7 @@ import 'package:lottie/lottie.dart';
 import 'package:get/get.dart';
 import 'package:liquid_swipe/liquid_swipe.dart';
 
+import '../movie_detail/movie_detail.dart';
 import 'base_controller.dart';
 
 class BasePage extends BaseView<BaseController> {
